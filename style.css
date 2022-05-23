@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("./Courgette/Montserrat-SemiBold.ttf");
+}
+
+body {
+  font-family: Montserrat-Medium;
+  background-color: #e0fac3;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body #parent {
+  margin-top: 5%;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #d6cf6e;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2%;
+  border: 2px solid black;
+  -webkit-box-shadow: 0px 0px 15px 8px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 0px 15px 8px rgba(34, 60, 80, 0.2);
+}
+
+body #parent h3 {
+  color: black;
+  font-weight: bolder;
+}
+
+body #parent button {
+  color: black;
+  background-color: #cab854;
+  padding: 3px 7px 3px 7px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  font-size: 18px;
+  position: relative;
+}
+
+body #parent button[data-value="R"] {
+  left: 120px;
+  top: 45px;
+}
+
+body #parent button[data-value="L"] {
+  right: 120px;
+  top: 45px;
+}
+
+body #parent button:hover {
+  background-color: #c0b053;
+}
+
+body #parent ul {
+  padding: 0 0 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  text-align: justify;
+}
+
+body #parent ul li {
+  background-color: #d1c958;
+  width: 7%;
+  display: block;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 4px 9px 4px 9px;
+  font-size: larger;
+  font-weight: 500;
+  margin: 0.3px;
+  color: black;
+  float: left;
+  text-align: center;
+  margin: 4px;
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 4px 4px 4px 0px rgba(34, 60, 80, 0.2);
+}
+
+body #parent ul .days {
+  background-color: #cab854;
+  border-radius: 3px;
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 5px 0px black;
+          box-shadow: 0px 0px 5px 0px black;
+}
+
+body #parent ul .opacity {
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */
