@@ -21,7 +21,6 @@ for( let i = 1; i <= daysMonth; i++ ){
     ul.appendChild(li);
 }
 
-
 let buttonL = document.createElement('button');
 buttonL.innerHTML = '←';
 buttonL.dataset.value = 'L';
